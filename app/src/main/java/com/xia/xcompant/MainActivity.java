@@ -11,7 +11,7 @@ import com.xia.router_annotation.Router;
  * date : 2019/12/6/006 15:13
  * desc : 组件化测试
  **/
-@Router(path = "main/test")
+@Router(path = "/main/test")
 public class MainActivity extends AppCompatActivity {
 
     @Override

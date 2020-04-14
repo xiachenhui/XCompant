@@ -10,6 +10,10 @@ dependencies {
     implementation project(path: ':router_annotation')
     implementation 'com.squareup:javapoet:1.11.1'
 }
+// java控制台输出中文乱码
+tasks.withType(JavaCompile) {
+    options.encoding = "UTF-8"
+}
 
 sourceCompatibility = "7"
 targetCompatibility = "7"
