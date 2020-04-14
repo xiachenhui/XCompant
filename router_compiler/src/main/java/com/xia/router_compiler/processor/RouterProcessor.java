@@ -142,6 +142,7 @@ public class RouterProcessor extends AbstractProcessor {
             } else {
                 throw new RuntimeException("Just Support Activity/Service " + element);
             }
+            log.i("RouterMeta Info :" +routerMeta.getPath());
             //路由信息的记录
             categories(routerMeta);
             //生成类需要实现的接口
